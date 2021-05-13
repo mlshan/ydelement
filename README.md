@@ -4,15 +4,15 @@
 
 ## Install
 ```
-npm install ydelelement -S
+npm install ydelement -S
 ```
 
 ## Quick Start
 ``` javascript
 import Vue from 'vue'
-import ydelelement from "ydelement"
+import ydelement from "ydelement"
 
-Vue.use(ydelelement)
+Vue.use(ydelement)
 
 // or
 import {
