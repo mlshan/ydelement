@@ -1,7 +1,7 @@
 <template>
     <div class="ql1d-techsup">
         <div class="ydimg-con">
-            <img src="../../assets/tecTips.png" alt="" class="yd-jishu" @click="ishowydtech=true">
+            <img src="https://img.qiluyidian.net/1620888872441gqfstaolsrimage.png" alt="" class="yd-jishu" @click="ishowydtech=true">
         </div>
         <div class="ydpopup-wrapper" :class="{'ybottom-up': ishowydtech}">
             <transition name="fade">
@@ -61,7 +61,7 @@ export default {
         padding: 1px;
         width: 24px;
         height: 24px;
-        background: url(../../assets/closed.png) no-repeat center center/18px;
+        background: url('https://img.qiluyidian.net/1620888950217pr56prm86qimage.png') no-repeat center center/18px;
     }
 }
 .links{
@@ -87,14 +87,14 @@ export default {
 .yd-text{
     padding: 30px;
     padding-top: 46px;
-    background: url('../../assets/tecBg.png') no-repeat center top/100% 100%;
+    background: url('https://img.qiluyidian.net/162088887243945zdkp9kq1fimage.png') no-repeat center top/100% 100%;
     position: relative;
     &::before{
         content: "";
         display: inline-block;
         width: 30px;
         height: 25px;
-        background: url(../../assets/tecIcon.png) no-repeat center center/100%;
+        background: url('https://img.qiluyidian.net/1620888872441eap4105vt54image.png') no-repeat center center/100%;
         position: absolute;
         top: 14px;
         left: 20px;
