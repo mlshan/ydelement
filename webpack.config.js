@@ -2,7 +2,8 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
-  entry: './src/index.js',
+  // entry: './src/index.js', //发包时
+  entry: './src/main.js', //本地运行开发
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',

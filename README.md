@@ -2,20 +2,24 @@
 
 > A Vue.js project
 
-
-``` bash
-## install dependencies
+## Install
 ```
 npm install ydelelement -S
 ```
+
 ## Quick Start
-```
+``` javascript
+import Vue from 'vue'
 import ydelelement from "ydelement"
 
 Vue.use(ydelelement)
 
-//or
-import {ydTechsupport} from "ydelement"
+// or
+import {
+  ydTechsupport,
+  // ...
+} from 'ydelement'
 
+Vue.component(ydTechsupport.name, ydTechsupport)
 ```
 
